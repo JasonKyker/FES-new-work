@@ -1028,10 +1028,27 @@ footer {
   }
 }
 
+@media (min-width: 768px) {
+  .nav__links {
+    display: flex;
+    gap: 1rem; 
+  }
+}
+
 .menu--open .modal {
   visibility: visible;
   opacity: 1;
   transform: translateX(0);
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav__links {
+  align-items: center;
 }
 
 .modal {
